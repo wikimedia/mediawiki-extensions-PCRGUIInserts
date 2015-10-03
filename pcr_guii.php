@@ -56,6 +56,7 @@ $wgExtensionCredits['other'][] = array(
 	'url' => 'http://www.mediawiki.org/wiki/Extension:PCR_GUI_Inserts',
 	'descriptionmsg' => 'pcr_guii-desc',
 	'version' => '1.0',
+	'license-name' => 'CC-BY-NC-ND 3.0'
 );
 
 function wfPCRguii()
