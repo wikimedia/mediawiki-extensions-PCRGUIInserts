@@ -1,0 +1,15 @@
+Version 1.1
+===========
+2015-10-16
+Dennis Roczek
+
++ add CHANGELOG
++ add license lame + license file on Special:Version
++ transformed i18n files to "new" JSON format 
++ initial README, needs much love
+
+Version 1.0
+===========
+David Dernoncourt
+
++initial release

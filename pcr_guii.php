@@ -47,15 +47,17 @@ $wgPCRguii_Inserts = array(
 ***************/
  
 $wgAutoloadClasses['PCRguii'] = $dir . 'pcr_guii_body.php';
-$wgExtensionMessagesFiles['PCRguii'] = $dir . 'pcr_guii.i18n.php';
 $wgHooks['ParserFirstCallInit'][] = 'wfPCRguii'; 
+$wgMessagesDirs['PCRgii'] = __DIR__ . '/i18n';
  
 $wgExtensionCredits['other'][] = array(
 	'name' => 'PCR GUI Inserts',
-	'author' => array('[http://www.patheticcockroach.com David Dernoncourt]'),
+	'author' => array('[http://www.patheticcockroach.com David Dernoncourt]',
+      'Dennis Roczek'
+      ),
 	'url' => 'http://www.mediawiki.org/wiki/Extension:PCR_GUI_Inserts',
-	'descriptionmsg' => 'pcr_guii-desc',
-	'version' => '1.0',
+	'descriptionmsg' => 'pcrguii-desc',
+	'version' => '1.1',
 	'license-name' => 'CC-BY-NC-ND 3.0'
 );
 
