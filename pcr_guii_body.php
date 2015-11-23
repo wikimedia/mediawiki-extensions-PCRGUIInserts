@@ -5,15 +5,6 @@
 ** Copyright (C)2010
 **                - PatheticCockroach <www.patheticcockroach.com>
 **
-** Home Page : 
-**
-** This program is licensed under the Creative Commons
-** Attribution-Noncommercial-No Derivative Works 3.0 Unported license
-** <http://creativecommons.org/licenses/by-nc-nd/3.0/legalcode>
-**
-** The attribution part of the license prohibits any unauthorized editing of any line related to
-** $wgExtensionCredits['other'][]
-**
 ** This program is distributed in the hope that it will be useful,
 ** but WITHOUT ANY WARRANTY; without even the implied warranty of
 ** MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
