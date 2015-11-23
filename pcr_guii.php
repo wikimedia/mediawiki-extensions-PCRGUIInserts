@@ -8,13 +8,6 @@
 ** Home Page : http://www.mediawiki.org/wiki/Extension:PCR_GUI_Inserts
 ** Version: 1.0
 **
-** This program is licensed under the Creative Commons
-** Attribution-Noncommercial-No Derivative Works 3.0 Unported license
-** <http://creativecommons.org/licenses/by-nc-nd/3.0/legalcode>
-**
-** The attribution part of the license prohibits any unauthorized editing of any line related to
-** $wgExtensionCredits['other'][]
-**
 ** This program is distributed in the hope that it will be useful,
 ** but WITHOUT ANY WARRANTY; without even the implied warranty of
 ** MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
@@ -58,7 +51,7 @@ $wgExtensionCredits['other'][] = array(
 	'url' => 'http://www.mediawiki.org/wiki/Extension:PCR_GUI_Inserts',
 	'descriptionmsg' => 'pcrguii-desc',
 	'version' => '1.1',
-	'license-name' => 'CC-BY-NC-ND 3.0'
+	'license-name' => 'CC-BY-SA 4.0'
 );
 
 function wfPCRguii()
