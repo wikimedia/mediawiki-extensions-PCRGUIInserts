@@ -44,6 +44,7 @@ $wgHooks['ParserFirstCallInit'][] = 'wfPCRguii';
 $wgMessagesDirs['PCRgii'] = __DIR__ . '/i18n';
  
 $wgExtensionCredits['other'][] = array(
+        'path'           => __FILE__,
 	'name' => 'PCR GUI Inserts',
 	'author' => array('[http://www.patheticcockroach.com David Dernoncourt]',
       'Dennis Roczek'
