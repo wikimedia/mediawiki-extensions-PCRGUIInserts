@@ -1,10 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dennis Roczek"
+			"Dennis Roczek",
+			"Kghbln"
 		]
 	},
-	"pcrguii-desc": "[[Special:Version]] description"
+	"pcrguiiinserts-desc": "{{desc|name=PCR_GUI_Inserts|url=https://www.mediawiki.org/wiki/Extension:PCR_GUI_Inserts}}"
 }
-
-

@@ -1,17 +1,15 @@
 <?php
-/*********************************************************************
-**
-** This file is part of the PCR GUI Inserts extension for MediaWiki
-** Copyright (C)2010
-**                - PatheticCockroach <www.patheticcockroach.com>
-**
-** This program is distributed in the hope that it will be useful,
-** but WITHOUT ANY WARRANTY; without even the implied warranty of
-** MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-**
-*********************************************************************/
+/**
+ * This is the class file for the PCR GUI Inserts extension
+ *
+ * @file
+ *
+ * @author David Dernoncourt (Patheticcockroach)
+ *
+ * @license https://creativecommons.org/licenses/by-sa/4.0/ CC-BY-SA-4.0
+ */
 
-class PCRguii
+class PCRGUIInserts
 {
 	public function __construct()
 	{
@@ -20,7 +18,7 @@ class PCRguii
 		$wgHooks['SkinAfterBottomScripts'][] = array( &$this, 'SkinAfterBottomScripts' );
 		$wgHooks['SkinBuildSidebar'][] = array( &$this, 'SkinBuildSidebar' );
 	}
-	
+
 	# addHeadItem places stuff within <head></head>
 	# BeforePageDisplay places stuff just at the end of the page content frame
 	public function BeforePageDisplay(&$out, &$sk)
@@ -31,7 +29,7 @@ class PCRguii
 			$i=0;
 			foreach($wgPCRguii_Inserts['addHeadItem']['content'] as $value)
 				{
-				$out->addHeadItem('PCRguii'.$i,$value);
+				$out->addHeadItem('PCRGUIInserts'.$i,$value);
 				$i++;
 				}
 			}
@@ -39,7 +37,7 @@ class PCRguii
 			$out->addHTML($wgPCRguii_Inserts['BeforePageDisplay']['content']);
 		return $out;
 	}
-	
+
 	# SkinAfterBottomScripts places stuff really at the bottom (after the last yellow line!)
 	public function SkinAfterBottomScripts($skin, &$text)
 	{
@@ -48,7 +46,7 @@ class PCRguii
 			$text .= $wgPCRguii_Inserts['SkinAfterBottomScripts']['content'];
 		return true;
 	}
-	
+
 	# SkinBuildSidebar places stuff at the end of the side bar
 	public function SkinBuildSidebar($skin, &$bar)
 	{

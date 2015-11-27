@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dennis Roczek"
+			"David Dernoncourt",
+			"Kghbln"
 		]
 	},
-	"pcrguii-desc": "Inserts stuff around the GUI."
+	"pcrguiiinserts-desc": "Lets you easily add pieces of HTML code at several useful places of the GUI"
 }

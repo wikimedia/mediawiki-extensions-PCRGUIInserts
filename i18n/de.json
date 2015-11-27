@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dennis Roczek"
+			"Kghbln"
 		]
 	},
-	"pcrguii-desc": "Erm&#246;glicht das Einf&#252;gen von HTML-Quelltext in die grafische Benutzeroberfl&#228;che."
+	"pcrguiinserts-desc": "Ermöglicht das Einfügen von HTML-Quelltext in die grafische Benutzeroberfläche."
 }

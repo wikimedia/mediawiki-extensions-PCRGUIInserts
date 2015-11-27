@@ -1,15 +1,36 @@
-Version 1.1
-===========
-2015-10-16
-Dennis Roczek
+The CHANGELOG of the PCR GUI Inserts extension to MediaWiki.
 
-+ add CHANGELOG
-+ add license lame + license file on Special:Version
-+ transformed i18n files to "new" JSON format 
-+ initial README, needs much love
 
-Version 1.0
-===========
-David Dernoncourt
+== Version 2.0 ==
 
-+initial release
+Released on November 27, 2015 by Karsten Hoffmeyer.
+
+* BREAKING CHANGE: Changed entry point file
+* Changed LICENSE to COPYING
+* Added CREDITS
+* Improved file documentation
+* Improved CHANGELOG
+* Cleaned up main extension file
+* Renamed extension class
+* Renamed extension files
+
+
+== Version 1.1.0 ==
+
+Released on October 16, 2015 by Dennis Roczek.
+
+* Added CHANGELOG
+* Added README
+* Added LICENSE (now CC BY-SA 4.0)
+* Migrated I18n-files to json
+* MediaWiki 1.23 or above
+* PHP 5.3 or above
+
+
+== Version 1.0 ==
+
+Released on March 2, 2011 by David Dernoncourt.
+
+* Initial release
+* MediaWiki 1.16 or above
+* PHP 5.2 or above
