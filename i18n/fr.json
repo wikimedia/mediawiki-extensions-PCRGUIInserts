@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"David Dernoncourt"
+			"David Dernoncourt",
+			"Orlodrim"
 		]
 	},
-	"pcrguiinserts-desc": "Permet d'insérer du code HTML en divers endroits de l'interface utilisateur"
+	"pcrguiinserts-desc": "Permet d’insérer du code HTML en divers endroits de l'interface utilisateur"
 }
