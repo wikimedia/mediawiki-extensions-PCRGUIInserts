@@ -2,8 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Dennis Roczek",
-			"Kghbln"
+			"Kghbln",
+			"Umherirrender"
 		]
 	},
-	"pcrguiiinserts-desc": "{{desc|name=PCR_GUI_Inserts|url=https://www.mediawiki.org/wiki/Extension:PCR_GUI_Inserts}}"
+	"pcrguiinserts-desc": "{{desc|name=PCR GUI Inserts|url=https://www.mediawiki.org/wiki/Extension:PCR_GUI_Inserts}}"
 }
