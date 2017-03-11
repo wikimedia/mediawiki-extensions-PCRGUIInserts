@@ -1,12 +1,20 @@
 The CHANGELOG of the PCR GUI Inserts extension to MediaWiki.
 
+## Version 2.0.3
+
+Released on March 11, 2016 by Karsten Hoffmeyer
+
+* Fixed previous fix for PHP 7.1 and later
+
+
 ## Version 2.0.2
 
-Release on March 11, 2016 by Karsten Hoffmeyer.
+Released on March 11, 2016 by Karsten Hoffmeyer.
 
-* Migrated &$this to $this to avoid warings in PHP 7.1 and later
+* Migrated &$this to $this to avoid warnings in PHP 7.1 and later
 * Added translations from translatewiki.net translators
 * Added verbose README.md
+
 
 ## Version 2.0.1
 

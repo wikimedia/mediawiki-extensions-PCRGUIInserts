@@ -14,9 +14,10 @@ class PCRGUIInserts
 	public function __construct()
 	{
 		global $wgHooks;
-		$wgHooks['BeforePageDisplay'][] = array( $this, 'BeforePageDisplay' );
-		$wgHooks['SkinAfterBottomScripts'][] = array( $this, 'SkinAfterBottomScripts' );
-		$wgHooks['SkinBuildSidebar'][] = array( $this, 'SkinBuildSidebar' );
+		$that = $this;
+		$wgHooks['BeforePageDisplay'][] = array( &$that, 'BeforePageDisplay' );
+		$wgHooks['SkinAfterBottomScripts'][] = array( &$that, 'SkinAfterBottomScripts' );
+		$wgHooks['SkinBuildSidebar'][] = array( &$that, 'SkinBuildSidebar' );
 	}
 
 	# addHeadItem places stuff within <head></head>
