@@ -27,7 +27,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['other'][] = array(
 	'path' => '__FILE__',
 	'name' => 'PCR GUI Inserts',
-	'version' => '2.0.1',
+	'version' => '2.0.2',
 	'author' => array(
 		'David Dernoncourt',
 		'...'
