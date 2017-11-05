@@ -7,7 +7,7 @@
  *
  * @link https://www.mediawiki.org/wiki/Extension:PCR_GUI_Inserts Documentation
  * @link https://www.mediawiki.org/wiki/Extension_talk:PCR_GUI_Inserts Support
- * @link https://git.wikimedia.org/summary/mediawiki%2Fextensions%2FPCRGUIInserts.git Source Code
+ * @link https://phabricator.wikimedia.org/diffusion/EPCR/ Source Code
  *
  * @file
  * @ingroup Extensions
