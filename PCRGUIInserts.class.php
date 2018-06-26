@@ -36,7 +36,7 @@ class PCRGUIInserts
 			}
 		if($wgPCRguii_Inserts['BeforePageDisplay']['on'])
 			$out->addHTML($wgPCRguii_Inserts['BeforePageDisplay']['content']);
-		return $out;
+		return true;
 	}
 
 	# SkinAfterBottomScripts places stuff really at the bottom (after the last yellow line!)
