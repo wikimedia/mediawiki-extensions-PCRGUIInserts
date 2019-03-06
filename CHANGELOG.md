@@ -1,5 +1,14 @@
 The CHANGELOG of the PCR GUI Inserts extension to MediaWiki.
 
+
+## Version 2.0.4
+
+Released March 6, 2019 by Karsten Hoffmeyer
+
+* Fixed `BeforePageDisplay` hook to not return output for MW 1.31 and later
+* Added translations from translatewiki.net translators
+
+
 ## Version 2.0.3
 
 Released on March 11, 2016 by Karsten Hoffmeyer

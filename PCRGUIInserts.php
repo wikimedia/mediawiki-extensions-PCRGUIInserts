@@ -3,7 +3,7 @@
  * The PCR GUI Inserts extension lets you easily add pieces of HTML code
  * at several useful places of the GUI
  *
- * @version 2.0.1
+ * @version 2.0.4
  *
  * @link https://www.mediawiki.org/wiki/Extension:PCR_GUI_Inserts Documentation
  * @link https://www.mediawiki.org/wiki/Extension_talk:PCR_GUI_Inserts Support
@@ -27,7 +27,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['other'][] = array(
 	'path' => '__FILE__',
 	'name' => 'PCR GUI Inserts',
-	'version' => '2.0.3',
+	'version' => '2.0.4',
 	'author' => array(
 		'David Dernoncourt',
 		'...'
